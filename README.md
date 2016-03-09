@@ -1,2 +1,0 @@
-# personal-android-production
-从本地文件夹或者摄像头获取图片并通过简单socket通信上传至服务器
