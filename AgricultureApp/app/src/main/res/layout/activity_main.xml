@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context="com.example.administrator.myapplication.welcome">
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+        <include layout="@layout/top_bar"
+            android:id="@+id/include"
+            />
+        <RelativeLayout
+            android:layout_below="@+id/include"
+            android:background="@drawable/lanse"
+
+            android:id="@+id/camera"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            >
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/xiangji"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/button" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+android:background="#ffffff"
+        android:layout_width="191dp"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentLeft="true" >
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/wenjian"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"></Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button1"
+            android:text="Picture"
+            android:layout_centerHorizontal="true"
+            android:textSize="25dp"
+            android:textColor="#000000"/>
+    </RelativeLayout>
+    <RelativeLayout
+android:background="#ffffff"
+        android:layout_width="191dp"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentRight="true" >
+        <Button
+            android:id="@+id/sousuo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/sousuo"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"></Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sousuo"
+            android:text="DataBank"
+            android:layout_centerHorizontal="true"
+            android:textSize="25dp"
+            android:textColor="#000000"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

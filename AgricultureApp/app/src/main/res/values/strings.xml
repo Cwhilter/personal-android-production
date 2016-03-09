@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">农业病虫害识别系统</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_classify">classify</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_affir">affir</string>
+    <string name="title_activity_show_information">showInformation</string>
+    <string name="title_activity_function">Function</string>
+    <string name="title_activity_dbtext">DBtext</string>
+    <string name="disease">常见病害</string>
+    <string name="title_activity_correct">correct</string>
+
+</resources>

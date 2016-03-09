@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/tab_bg" >
+
+        <TextView
+            android:id="@+id/top_bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:text="Choose Function"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+        <Button
+            android:id="@+id/back1"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/back_arrow"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

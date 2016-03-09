@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mibai"
+    tools:context="com.example.administrator.myapplication.welcome">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <include layout="@layout/top_bar2"
+        android:id="@+id/include"
+        />
+    <GridView
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:id="@+id/gridview"
+        android:numColumns="3"
+        android:horizontalSpacing="20dp"
+        android:verticalSpacing="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include">
+    </GridView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

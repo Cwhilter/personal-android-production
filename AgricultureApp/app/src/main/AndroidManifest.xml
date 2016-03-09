@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.agricultureapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    //允许应用程序访问网络
+    <uses-permission android:name="android.permission.CAMERA" />
+    //摄像头权限
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    //SD卡读写权限
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/buttom"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".welcome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".classify"
+            android:label="@string/title_activity_classify" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".affirm"
+            android:label="@string/title_activity_affir" >
+        </activity>
+        <activity
+            android:name=".showInformation"
+            android:label="@string/title_activity_show_information" >
+        </activity>
+        <activity
+            android:name=".DBtext"
+            android:label="@string/title_activity_dbtext" >
+        </activity>
+        <activity
+            android:name=".com.correct"
+            android:label="@string/title_activity_correct" >
+        </activity>
+        <activity
+            android:name=".correct"
+            android:label="@string/title_activity_correct" >
+        </activity>
+    </application>
+
+</manifest>
